@@ -1,0 +1,20 @@
+{
+  "name": "js-links",
+  "main": "./lib/js-links",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {},
+  "repository": "https://github.com/atom/js-links",
+  "license": "MIT",
+  "providedServices": {
+    "code-links": {
+      "description": "Provides code links for Javascript files.",
+      "versions": {
+        "0.1.0": "provideJavascriptLinks"
+      }
+    }
+  },
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
